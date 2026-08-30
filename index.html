@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">MySite<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <nav id="navbarMenu">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="themeToggle" class="theme-btn" aria-label="Toggle dark mode">🌙</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="badge">🚀 Live on GitHub Pages</div>
+        <h1>Hi, I'm <span class="highlight">Sophia</span></h1>
+        <p class="hero-subtitle">
+          Welcome to my digital space! I'm passionate about building clean, useful, and delightful web experiences.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="card about-card">
+          <p>
+            Welcome! I'm building this website step-by-step and hosting it directly with GitHub Pages.
+            Here you can share your story, background, current role, or what you're working on.
+          </p>
+          <p>
+            We can easily update this with your bio, resume download, profile picture, or custom sections.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-tag">HTML5 & CSS3</div>
+          <div class="skill-tag">JavaScript</div>
+          <div class="skill-tag">Git & GitHub</div>
+          <div class="skill-tag">Python</div>
+          <div class="skill-tag">Web Design</div>
+          <div class="skill-tag">Problem Solving</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-tag">GitHub Pages</div>
+            <h3>Personal Website</h3>
+            <p>A fast, responsive, and modern website hosted for free on GitHub Pages.</p>
+            <div class="project-footer">
+              <a href="#" class="project-link">Source Code &rarr;</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-tag">Web App</div>
+            <h3>Project Showcase #2</h3>
+            <p>Description of your project: its goal, tech stack, and what you learned while building it.</p>
+            <div class="project-footer">
+              <a href="#" class="project-link">Live Demo &rarr;</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-tag">Creative</div>
+            <h3>Project Showcase #3</h3>
+            <p>Another exciting piece of work, side project, or open-source tool.</p>
+            <div class="project-footer">
+              <a href="#" class="project-link">Learn More &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+      <div class="container contact-container">
+        <h2 class="section-title">Let's Connect</h2>
+        <p>Interested in collaborating or have a question? Feel free to reach out!</p>
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com" class="btn btn-primary">Say Hello</a>
+          <a href="https://github.com/sophia8hu" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; <span id="current-year"></span> Sophia. Built with HTML/CSS/JS & hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
