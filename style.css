@@ -179,8 +179,10 @@ body {
 .hero .highlight {
   color: #9333ea;
   background: linear-gradient(135deg, #a855f7, #7c3aed);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 .hero-subtitle {
