@@ -177,8 +177,8 @@ body {
 }
 
 .hero .highlight {
-  color: #9333ea;
-  background: linear-gradient(135deg, #a855f7, #7c3aed);
+  color: #ef4444;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
