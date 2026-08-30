@@ -13,6 +13,6 @@ echo "💾 Committing: $MSG"
 git commit -m "$MSG" || echo "Nothing new to commit."
 
 echo "🚀 Pushing to GitHub..."
-git push origin main
+git push -u origin main
 
 echo "✅ Sync complete!"
