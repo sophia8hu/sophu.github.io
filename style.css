@@ -177,11 +177,11 @@ body {
 }
 
 .hero .highlight {
-  color: #2563eb !important;
-  background: linear-gradient(135deg, #3b82f6, #1d4ed8) !important;
-  background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  color: #ffffff !important;
+  background: none !important;
+  background-clip: unset !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: #ffffff !important;
   display: inline-block;
 }
 
